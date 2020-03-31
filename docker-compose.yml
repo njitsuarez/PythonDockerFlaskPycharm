@@ -9,7 +9,7 @@ services:
 
   db:
     image: mysql:5.7
-    container_name: "MySQL_Database 2"
+    container_name: "MySQL_Database2"
     ports:
       - "32000:3306"
     environment:
