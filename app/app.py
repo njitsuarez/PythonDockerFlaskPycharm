@@ -16,7 +16,7 @@ def favorite_colors() -> List[Dict]:
     }
     connection = mysql.connector.connect(**config)
     cursor = connection.cursor()
-    cursor.execute('SELECT * FROM favorite_colors')
+    cursor.execute('SELECT * FROM tblCitiesImport')
     results = [{name: color} for (name, color) in cursor]
     cursor.close()
     connection.close()
