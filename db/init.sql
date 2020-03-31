@@ -246,17 +246,4 @@ INSERT INTO tblCitiesImport VALUES
     ('Benxi',41.3304,123.75,'China','CHN','NA',1012000),
     ('Louisville',38.1663,-85.6485,'United States','USA','NA',1011696),
     ('Cologne',50.93,6.95,'Germany','DEU','NA',1004000),
-    ('Qinhuangdao',39.9304,119.62,'China','CHN','NA',1003000);CREATE DATABASE knights;
-use knights;
-
-CREATE TABLE favorite_colors (
-  name VARCHAR(20),
-  color VARCHAR(100)
-);
-
-INSERT INTO favorite_colors
-  (name, color)
-VALUES
-  ('Lancelot', 'blue'),
-  ('Sponge Bob', 'Sponge Yellow'),
-  ('Galahad', 'yellow');
+    ('Qinhuangdao',39.9304,119.62,'China','CHN','NA',1003000);
